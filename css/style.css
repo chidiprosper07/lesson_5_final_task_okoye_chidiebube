@@ -51,3 +51,135 @@ table {
 
 
 /* Write your css below here */
+.bg-primary {
+	background-color: #b1942b;
+	background-image: linear-gradient(to bottom right, #b1942b, #8A7219);
+}
+
+.bg-light {
+	background-color: #fbf5e5 !important;
+}
+
+.border-primary {
+	border-color: #8A7219 !important;
+}
+
+.btn-primary {
+	background-color: #8A7219;
+	background-image: linear-gradient(to bottom right, #b1942b, #8A7219);
+	color: #fff;
+	border: 0;
+	transition: all .5s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #8A7219;
+	color: #373737;
+}
+
+.text-primary {
+	color: #8A7219 !important;
+	font-family: Lato, sans-serif;
+}
+
+
+section {
+	padding: 70px 10px;
+}
+
+.card {
+	transition: all .5s ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.1) translate(-5px, 5px);
+}
+
+.list-group-item-primary {
+	background-color: #fada6680;
+	color: #373737;
+	transition: all .5s;
+}
+
+.list-group-item-primary:hover {
+	background-color: #fde079;
+}
+
+.list-group-item-light {
+	background-color: #fbf5e580;
+	transition: all .5s;
+}
+
+.list-group-item-light:hover {
+	background-color: #fbf5e5;
+}
+
+.list-group-item-secondary {
+	background-color: #e4e2df80;
+	transition: all .5s;
+}
+
+.list-group-item-secondary:hover {
+	background-color: #e4e2df;
+}
+
+a {
+	color: #8A7219;
+}
+
+a.nav-link {
+	transition: all .3s;
+}
+
+a.nav-link:hover {
+	color: #8A7219;
+	display: inline-block;
+	transform: scale(1.2);
+}
+
+footer img {
+	animation: roll 12s linear infinite;
+}
+
+div.offcanvas-body img {
+	transition: all .5s;
+}
+
+div.offcanvas-body img:hover {
+	transform: scale(1.1);
+}
+
+@keyframes roll {
+	0% {
+		transform: translateX(38vw);
+	}
+
+	50% {
+		transform: translateX(-38vw);
+	}
+
+	100% {
+		transform: translateX(38vw);
+	}
+}
+
+.typewriter {
+	overflow: hidden;
+	white-space: nowrap;
+	letter-spacing: .15em;
+	animation: typing 6s linear infinite;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 100%;
+	}
+}
